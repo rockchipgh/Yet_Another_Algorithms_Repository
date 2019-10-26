@@ -36,7 +36,9 @@ class fibonacci
 			for (long i=0;i<inp;i++)
 			{
 				sum = a+b;
-				cout<<" "<<sum;
+				if((i%10)==0)
+					cout<<" "<<sum<<endl;
+					else cout<<" "<<sum;
 				a=b;
 				b=sum;
 			}
